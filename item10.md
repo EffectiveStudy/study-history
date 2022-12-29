@@ -63,3 +63,7 @@ final 이 아닌 메소드(equals, hashCode, toString, clone, finalize)는 재�
 꼭 필요한 경우가 아니며 equals 메소드 정의를 하지 말자.
 재정의시 핵심필드 를 모두 빠짐없이 비교하며 5가지 일반 규약을 지켜야한다.
 ```
+
+---
+
+[스터디 발표 소스 repository](https://github.com/EffectiveStudy/leesangho/blob/main/src/main/java/com/github/sangholee/dev/effectivejavastudy/study02_item10)
