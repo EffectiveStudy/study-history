@@ -6,7 +6,7 @@
 * Serializable 란? 객체 to 바이트 스트림
 * Deserializble란? 바이트스트림 to 객체
 
-![img.png](img.png)
+![img.png](item85(1).png)
 ### 바이트 스트림이란?
 
 스트림은 데이터의 흐름, 마치 클라이언트가 서버에게 데이터를 보내면, 이러한 출발지와 목적지로 입출력하기 위한 통로
@@ -92,7 +92,7 @@ static class Person implements Serializable {
 1. 객체를 읽는 readObject 메서드는 클래스에 존재하는 모든 타입의 객체를 만들어 낼 수 있다
    - private 필드가 있더라고, readObject을 이용하여 값을 읽어낼 수 있다.
     - readObject 역직렬화 시 사용 되는데 , 이는 또 다른 생성자이기에 역 직렬화 시 값을 변경할 수 있다.(뇌피셜)
-![img_1.png](img_1.png)
+![img_1.png](item85(2).png)
 2. 바이트 스트림을 역 직렬화 할때 해당 타입아느이 모든 코드를 수행할 수 있다.
    - 이는 바이트 스트림을 역직렬화할 때 해당 클래스의 생성자, 초기화 블록, 메서드 등을 실행할 수 있다는 것을 의미
 
